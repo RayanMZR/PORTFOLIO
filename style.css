@@ -1,0 +1,209 @@
+html {
+    line-height: 1.15;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+    position: relative;
+    background-color: #2F4F4F;
+  }
+  section {
+    padding: 90px 15px;
+  }
+  .content {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    font-size: 18px;
+    margin: 5px 0 10px;
+  }
+  .bold {
+    font-weight: 700;
+  }
+  .orange {
+    color: #FF5100;
+  }
+  h2 {
+    font-size: 36px;
+    margin: 5px 0 10px;
+  }
+  @media screen and (min-width: 768px) {
+    h2 {
+      font-size: 70px;
+      color: #848484;
+      font-weight: 700;
+    }
+  }
+
+  img.round {
+    border-radius: 50%;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .site-header {
+    z-index: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #2F4F4F;
+    border-radius: 50px;
+    }
+  @media screen and (min-width: 1250px) {
+    .site-header {
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+    }
+  }
+  .site-header .nav-logo {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    padding: 5px 20px 5px;
+  }
+  .site-header .nav-logo a img {
+    max-width: 200px;
+    height: auto;
+  }
+  @media screen and (min-width: 768px) {
+    .site-header .nav-logo a img {
+      max-width: 314px;
+      height: auto;
+    }
+  }
+  .site-header .nav-links {
+    display: none;
+    width: 100%;
+    background-color: #2F4F4F;
+    padding: 12px 100px 0px;
+  }
+  @media screen and (min-width: 1250px) {
+    .site-header .nav-links {
+      display: block;
+      background-color: #2F4F4F;
+      border-radius: 50px;
+    }
+  }
+  .site-header .nav-links ul {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  @media screen and (min-width: 1250px) {
+    .site-header .nav-links ul {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+    }
+  }
+  .site-header .nav-links ul li {
+    list-style: none;
+    border-radius: 30px;
+  }
+  .site-header .nav-links ul li a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 400;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    border-radius: 30px;
+  }
+  .site-header .nav-links ul li:hover {
+    background-color: #000000;
+  }
+  .site-header button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    max-width: 50px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  @media screen and (min-width: 1250px) {
+    .site-header button {
+      display: none;
+    }
+  }
+  .nav-links.active {
+    display: block;
+  }
+
+  .banner {
+    padding: 900px 15px;
+    background-color: #2F4F4F;
+    background-image: linear-gradient(180deg, #2F4F4F 0%, #000000 70%);
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: #FFFFFF;
+  }
+  .banner2 {
+    padding: 900px 15px;
+    background-color: #2F4F4F;
+    background-image: linear-gradient(180deg, black 0%, #2F4F4F 70%);
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    color: #FFFFFF;
+  }
+
+  .promo {
+    background-color: #DEF0FF;
+  }
+  .promo .content h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #222;
+    text-shadow: 0 1px 2px #222;
+  }
+  @media screen and (min-width: 768px) {
+    .promo .content h2 {
+      font-size: 70px;
+    }
+  }
+  .promo .content h2 span.orange {
+    font-weight: 700;
+  }
+  .promo .content p {
+    font-size: 22px;
+  }
+  @media screen and (min-width: 768px) {
+    .promo .content p {
+      font-size: 36px;
+    }
+  }
